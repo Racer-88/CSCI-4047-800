@@ -7,3 +7,7 @@
 # pip install pandas
 # "as pd" makes "pd" a nickname for the package
 import pandas as pd
+
+df = pd.read_csv('./AllPokemon.csv')
+
+print(df)
