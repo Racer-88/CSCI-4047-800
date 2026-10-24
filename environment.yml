@@ -3,14 +3,15 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - pandas
-  - numpy
-  - scipy
+  - numpy>=2.0
+  - scipy=1.18.1
+  - pandas>=2.2
+  - statsmodels>=0.14.2
   - matplotlib
   - seaborn
   - scikit-learn
-  - statsmodels
   - jupyter
   - ipykernel
   - openpyxl
   - pip
+

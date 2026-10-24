@@ -25,3 +25,7 @@ yarn-error.log*
 
 # Zip files
 *.zip
+
+# Fixing CSV error with git in Assignment 7
+*.csv
+Mod07 Classification/Assignment/*.csv
